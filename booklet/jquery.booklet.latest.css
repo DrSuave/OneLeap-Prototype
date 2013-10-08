@@ -10,7 +10,7 @@
  *	1) Charles Mangin (http://clickheredammit.com/pageflip/)
  */
  	.html {background: white;}
-	.booklet         {width:800px; height:600px; position:relative; margin-left: auto; margin-right:auto; top:0px; overflow:visible !important;}
+	.booklet         {width:800px; height:600px; position:relative; margin-left: auto; margin-right:auto; overflow:visible !important;}
 	.booklet .b-page {left:0; top:0; position:absolute; overflow:hidden; padding:0; outline:1px solid transparent;}
 	
 	.booklet .b-pN  {}
@@ -22,8 +22,8 @@
 	   
    	/* Page Wrappers */
 	.booklet .b-wrap       {top:0; position:absolute;}
-	.booklet .b-wrap-left  {background:#fff; margin-left: -10px; top:0;}
-	.booklet .b-wrap-right {background:#fff; margin-left: -10px; top:0;}
+	.booklet .b-wrap-left  {background:black; margin-left: -10px; top:0;}
+	.booklet .b-wrap-right {background:black; margin-left: -10px; top:0;}
 	
 	.booklet .b-pN .b-wrap,
 	.booklet .b-p1 .b-wrap,
